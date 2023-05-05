@@ -41,6 +41,26 @@ public class EmployeeImpl implements EmployeeDao {
         return employee;
     }
 
+    @Override
+    public void updateAmount(Employee employee) {
+        try (Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession()){
+            Transaction transaction = session.beginTransaction();
+            session.update(employee);
+            transaction.commit();
+        }
+    }
+
+    @Override
+    public void delete(Employee employee) {
+        try(Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession()) {
+            Transaction transaction = session.beginTransaction();
+            // Для удаления объекта из таблицы нужно передать его в метод delete
+            session.delete(employee);
+            transaction.commit();
+        }
+    }
+
+
 //    @Override
 //    public Employee findById(Integer id) throws SQLException {
 //        try (PreparedStatement statement = applicationConnection.getPrepareStatement

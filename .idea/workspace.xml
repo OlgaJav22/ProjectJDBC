@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73609be4-950c-4c36-b5c7-99f028505e9e" name="Changes" comment="подключение hibernate">
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/connection/HibernateSessionFactoryUtil.java" afterDir="false" />
+    <list default="true" id="73609be4-950c-4c36-b5c7-99f028505e9e" name="Changes" comment="подключение hibernate часть 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +42,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="project.jdbc.Application" />
@@ -88,7 +88,7 @@
       <updated>1682242198756</updated>
       <workItem from="1682242200503" duration="16493000" />
       <workItem from="1682677177928" duration="1034000" />
-      <workItem from="1683298576075" duration="5551000" />
+      <workItem from="1683298576075" duration="7516000" />
     </task>
     <task id="LOCAL-00001" summary="New">
       <created>1682244387965</created>
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683300372600</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="подключение hibernate часть 2">
+      <created>1683304541995</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683304541995</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +139,17 @@
     <MESSAGE value="New" />
     <MESSAGE value="Good" />
     <MESSAGE value="подключение hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="подключение hibernate" />
+    <MESSAGE value="подключение hibernate часть 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="подключение hibernate часть 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

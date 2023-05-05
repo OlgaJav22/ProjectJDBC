@@ -22,6 +22,14 @@ public class Employee {
 
     }
 
+    public Employee(int id, String lastName, String firstName, Integer age, int city) {
+        this.id = id;
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.age = age;
+        this.city = city;
+    }
+
     public Employee(String lastName, String firstName, Integer age, Integer city) {
         this.lastName = lastName;
         this.firstName = firstName;

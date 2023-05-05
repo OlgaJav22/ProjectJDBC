@@ -19,4 +19,8 @@ public interface EmployeeDao {
     void create(Employee employee);
 
     Employee readById(int id);
+
+    void updateAmount(Employee employee);
+
+    void delete(Employee employee);
 }

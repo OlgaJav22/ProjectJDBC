@@ -25,10 +25,18 @@ public class Application {
 //            System.out.println(employee);
 //        }
 
-//        Employee employee1 = new Employee("Марина", "Пивоварова", 30, 1);
-//        employeeDao.create(employee1);
+        Employee employee1 = new Employee("Марина", "Пивоварова", 30, 1);
+        employeeDao.create(employee1);
 
         // Получаем объект по id
         System.out.println(employeeDao.readById(5));
+
+        //Обновление объекта
+        Employee employee2 = new Employee(8, "Sasha", "Zvereva", 38, 2);
+        employeeDao.updateAmount(employee2);
+
+        // Удаляем объект
+        employeeDao.delete(employee2);
     }
+
 }
