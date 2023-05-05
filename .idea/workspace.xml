@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73609be4-950c-4c36-b5c7-99f028505e9e" name="Changes" comment="подключение hibernate часть 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/models/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-    </list>
+    <list default="true" id="73609be4-950c-4c36-b5c7-99f028505e9e" name="Changes" comment="подключение hibernate good!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +81,7 @@
       <updated>1682242198756</updated>
       <workItem from="1682242200503" duration="16493000" />
       <workItem from="1682677177928" duration="1034000" />
-      <workItem from="1683298576075" duration="7516000" />
+      <workItem from="1683298576075" duration="8326000" />
     </task>
     <task id="LOCAL-00001" summary="New">
       <created>1682244387965</created>
@@ -118,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683304541995</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="подключение hibernate good!">
+      <created>1683306639347</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683306639347</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +140,8 @@
     <MESSAGE value="Good" />
     <MESSAGE value="подключение hibernate" />
     <MESSAGE value="подключение hibernate часть 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="подключение hibernate часть 2" />
+    <MESSAGE value="подключение hibernate good!" />
+    <option name="LAST_COMMIT_MESSAGE" value="подключение hibernate good!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
