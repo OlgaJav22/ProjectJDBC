@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73609be4-950c-4c36-b5c7-99f028505e9e" name="Changes" comment="Good">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="73609be4-950c-4c36-b5c7-99f028505e9e" name="Changes" comment="подключение hibernate">
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/connection/HibernateSessionFactoryUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="jdbc1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,7 +88,7 @@
       <updated>1682242198756</updated>
       <workItem from="1682242200503" duration="16493000" />
       <workItem from="1682677177928" duration="1034000" />
-      <workItem from="1683298576075" duration="1182000" />
+      <workItem from="1683298576075" duration="5551000" />
     </task>
     <task id="LOCAL-00001" summary="New">
       <created>1682244387965</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682263510768</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="подключение hibernate">
+      <created>1683300372600</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683300372600</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +131,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New" />
     <MESSAGE value="Good" />
-    <option name="LAST_COMMIT_MESSAGE" value="Good" />
+    <MESSAGE value="подключение hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="подключение hibernate" />
   </component>
 </project>

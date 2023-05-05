@@ -6,13 +6,17 @@ import java.sql.SQLException;
 import java.util.List;
 
 public interface EmployeeDao {
-    Employee findById(Integer id) throws SQLException;
+//    Employee findById(Integer id) throws SQLException;
+//
+//    void hireNewEmployee(String lastName, String firstName, Integer age, Integer citiId) throws SQLException;
+//
+//    void refactorEmployee(Integer id, String lastName, String firstName, Integer age, Integer citiId) throws SQLException;
+//
+//    void deleteEmployeeById(Integer id) throws SQLException;
+//
+//    List<Employee> allEmployees() throws SQLException;
 
-    void hireNewEmployee(String lastName, String firstName, Integer age, Integer citiId) throws SQLException;
+    void create(Employee employee);
 
-    void refactorEmployee(Integer id, String lastName, String firstName, Integer age, Integer citiId) throws SQLException;
-
-    void deleteEmployeeById(Integer id) throws SQLException;
-
-    List<Employee> allEmployees() throws SQLException;
+    Employee readById(int id);
 }
