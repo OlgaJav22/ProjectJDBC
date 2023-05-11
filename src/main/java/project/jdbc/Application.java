@@ -4,6 +4,7 @@ import project.jdbc.dao.cityDao.CityDao;
 import project.jdbc.dao.cityDao.CityImpl;
 import project.jdbc.dao.employeeDao.EmployeeDao;
 import project.jdbc.dao.employeeDao.EmployeeImpl;
+import project.jdbc.models.City;
 import project.jdbc.models.Employee;
 
 import java.sql.SQLException;
@@ -24,19 +25,23 @@ public class Application {
 //        for (Employee employee : employeeDao.allEmployees()) {
 //            System.out.println(employee);
 //        }
-
-        Employee employee1 = new Employee("Марина", "Пивоварова", 30, 1);
+        City city = new City("Иваново");
+        cityDao.create(city);
+        cityDao.getAllCity();
+        cityDao.updateCity(city);
+        cityDao.deleteCity(city);
+        Employee employee1 = new Employee("Ольга", "Игорева", 20, city);
         employeeDao.create(employee1);
 
         // Получаем объект по id
         System.out.println(employeeDao.readById(5));
 
         //Обновление объекта
-        Employee employee2 = new Employee(8, "Sasha", "Zvereva", 38, 2);
+        Employee employee2 = new Employee(8, "Sasha", "Zvereva", 38);
         employeeDao.updateAmount(employee2);
 
         // Удаляем объект
-        employeeDao.delete(employee2);
+        employeeDao.delete(employee1);
     }
 
 }

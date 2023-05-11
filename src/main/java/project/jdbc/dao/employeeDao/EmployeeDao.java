@@ -1,5 +1,7 @@
 package project.jdbc.dao.employeeDao;
 
+import project.jdbc.dao.cityDao.CityDao;
+import project.jdbc.models.City;
 import project.jdbc.models.Employee;
 
 import java.sql.SQLException;

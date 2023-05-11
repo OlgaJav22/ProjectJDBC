@@ -14,6 +14,7 @@ public class EmployeeImpl implements EmployeeDao {
 
     private final CityDao cityDao = new CityImpl();
 
+
     @Override
     public void create(Employee employee) {
         // В ресурсах блока try создаем объект сессии с помощью нашего конфиг-файла
@@ -25,8 +26,6 @@ public class EmployeeImpl implements EmployeeDao {
             // данный метод внутри себя содержит необходимый запрос к базе
             // для создания новой строки
             session.save(employee);
-            // Выполняем коммит, то есть сохраняем изменения,
-            // которые совершили в рамках транзакции
             transaction.commit();
         }
     }

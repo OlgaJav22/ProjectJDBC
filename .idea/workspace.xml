@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73609be4-950c-4c36-b5c7-99f028505e9e" name="Changes" comment="ок">
+    <list default="true" id="73609be4-950c-4c36-b5c7-99f028505e9e" name="Changes" comment="Добавляем city">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9b1cb02-69d5-49b0-ac12-61615e5f4921.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9b1cb02-69d5-49b0-ac12-61615e5f4921.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9b1cb02-69d5-49b0-ac12-61615e5f4921/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9b1cb02-69d5-49b0-ac12-61615e5f4921/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9b1cb02-69d5-49b0-ac12-61615e5f4921/storage_v2/_src_/database/skypro.7NVZyg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9b1cb02-69d5-49b0-ac12-61615e5f4921/storage_v2/_src_/database/skypro.7NVZyg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/connection/HibernateSessionFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/connection/HibernateSessionFactoryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/cityDao/CityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/cityDao/CityDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/cityDao/CityImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/cityDao/CityImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/models/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/models/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/models/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="jdbc1" />
+        <entry key="$PROJECT_DIR$" value="jdbc2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,7 +97,7 @@
       <workItem from="1682677177928" duration="1034000" />
       <workItem from="1683298576075" duration="8326000" />
       <workItem from="1683315543508" duration="354000" />
-      <workItem from="1683793063947" duration="87000" />
+      <workItem from="1683793063947" duration="13744000" />
     </task>
     <task id="LOCAL-00001" summary="New">
       <created>1682244387965</created>
@@ -129,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683315632700</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Добавляем city">
+      <created>1683793282971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683793282971</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +172,8 @@
     <MESSAGE value="подключение hibernate часть 2" />
     <MESSAGE value="подключение hibernate good!" />
     <MESSAGE value="ок" />
-    <option name="LAST_COMMIT_MESSAGE" value="ок" />
+    <MESSAGE value="Добавляем city" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавляем city" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,12 +1,36 @@
 package project.jdbc.models;
 
+import javax.persistence.*;
+import java.util.List;
 import java.util.Objects;
 
+@Entity
+@Table(name = "city")
 public class City {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "city_id")
+    private int id;
+    @Column(name = "city_name")
     private String name;
+    @OneToMany(mappedBy = "city", cascade = CascadeType.ALL)
+    private List<Employee> employeeList;
 
     public City(String name) {
         this.name = name;
+    }
+
+    public City() {
+
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -32,6 +56,6 @@ public class City {
 
     @Override
     public String toString() {
-        return name;
+        return name + id;
     }
 }
