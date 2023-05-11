@@ -4,21 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73609be4-950c-4c36-b5c7-99f028505e9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="73609be4-950c-4c36-b5c7-99f028505e9e" name="Changes" comment="Добавляем city">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9b1cb02-69d5-49b0-ac12-61615e5f4921.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9b1cb02-69d5-49b0-ac12-61615e5f4921.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9b1cb02-69d5-49b0-ac12-61615e5f4921/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9b1cb02-69d5-49b0-ac12-61615e5f4921/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9b1cb02-69d5-49b0-ac12-61615e5f4921/storage_v2/_src_/database/skypro.7NVZyg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9b1cb02-69d5-49b0-ac12-61615e5f4921/storage_v2/_src_/database/skypro.7NVZyg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/connection/HibernateSessionFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/connection/HibernateSessionFactoryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/cityDao/CityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/cityDao/CityDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/cityDao/CityImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/cityDao/CityImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/dao/employeeDao/EmployeeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/models/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/models/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/jdbc/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/jdbc/models/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="jdbc2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -30,17 +49,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.jdbc.Application" />
+      <module name="ProjectJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,8 +93,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682242198756</updated>
-      <workItem from="1682242200503" duration="358000" />
+      <workItem from="1682242200503" duration="16493000" />
+      <workItem from="1682677177928" duration="1034000" />
+      <workItem from="1683298576075" duration="8326000" />
+      <workItem from="1683315543508" duration="354000" />
+      <workItem from="1683793063947" duration="13744000" />
     </task>
+    <task id="LOCAL-00001" summary="New">
+      <created>1682244387965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682244387965</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Good">
+      <created>1682263510768</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682263510768</updated>
+    </task>
+    <task id="LOCAL-00003" summary="подключение hibernate">
+      <created>1683300372600</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683300372600</updated>
+    </task>
+    <task id="LOCAL-00004" summary="подключение hibernate часть 2">
+      <created>1683304541995</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683304541995</updated>
+    </task>
+    <task id="LOCAL-00005" summary="подключение hibernate good!">
+      <created>1683306639347</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683306639347</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ок">
+      <created>1683315632700</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683315632700</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Добавляем city">
+      <created>1683793282971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683793282971</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,5 +164,25 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New" />
+    <MESSAGE value="Good" />
+    <MESSAGE value="подключение hibernate" />
+    <MESSAGE value="подключение hibernate часть 2" />
+    <MESSAGE value="подключение hibernate good!" />
+    <MESSAGE value="ок" />
+    <MESSAGE value="Добавляем city" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавляем city" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
